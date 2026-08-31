@@ -1,0 +1,25 @@
+[
+  {
+    "id": "usr-1",
+    "username": "admin",
+    "passwordHash": "$2b$10$6yG45nvQRI73qcXSVMOhzOKjoUF1pbQFKXYTYjGWjBzmuCdgQk0K.",
+    "name": "Hospital Administrator",
+    "role": "SUPERADMIN",
+    "roleLabel": "Hospital Administrator",
+    "badgeColor": "#0F766E",
+    "department": "Central Administration",
+    "avatarInitials": "HA",
+    "allowedTabs": [
+      "dashboard",
+      "opd",
+      "ipd",
+      "panchkarma",
+      "lab",
+      "pharmacy",
+      "billing",
+      "doctors",
+      "reports",
+      "masters"
+    ]
+  }
+]

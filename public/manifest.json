@@ -1,0 +1,19 @@
+{
+  "short_name": "COER HMS",
+  "name": "COER Medical College of Ayurveda and Hospital HMS",
+  "description": "Enterprise Hospital Management System & Patient Electronic Health Records",
+  "icons": [
+    {
+      "src": "/coer-logo.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F766E",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/"
+}
