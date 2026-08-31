@@ -443,3 +443,61 @@ body {
     display: block !important;
   }
 }
+
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE ENGINE (RWD)
+   ========================================================================== */
+@media (max-width: 900px) {
+  .app-layout {
+    flex-direction: column !important;
+  }
+
+  aside {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    border-right: none !important;
+    border-bottom: 1px solid #E2E8F0 !important;
+  }
+
+  .main-content {
+    padding: 1rem 0.75rem !important;
+  }
+
+  .grid-cols-2,
+  .grid-cols-3,
+  .grid-cols-4 {
+    grid-template-columns: 1fr !important;
+    gap: 0.875rem !important;
+  }
+
+  .table-container {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .modal-overlay {
+    padding: 0.75rem 0.5rem !important;
+  }
+
+  .modal-content {
+    padding: 1.25rem 1rem !important;
+    border-radius: 10px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 1rem !important;
+  }
+
+  .form-control {
+    font-size: 16px !important;
+    padding: 0.5rem 0.625rem !important;
+  }
+
+  .btn {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.8125rem !important;
+  }
+}
